@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-ptp0k2kiu=#rf$g#tfy(reng732nvkufbk#@x4!vb61#&lhe#6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['synco.kirene.ao']
 
 
 # Application definition
