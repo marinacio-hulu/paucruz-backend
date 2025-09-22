@@ -6,6 +6,7 @@ from rest_framework_simplejwt.views import (
 from . import views
 
 urlpatterns = [
+    path('register/', views.register_user),
     path('register-jwt/', views.register_user_with_jwt),
     path('me/', views.user_detail),
 
